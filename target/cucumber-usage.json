@@ -1,0 +1,125 @@
+[
+  {
+    "source": "^I write (.*) and (.*)",
+    "steps": [
+      {
+        "name": "I write user001 and abcd1234",
+        "aggregatedDurations": {
+          "average": 0.300208899,
+          "median": 0.300208899
+        },
+        "durations": [
+          {
+            "duration": 0.300208899,
+            "location": "Facebook.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I write user002 and abcd1234",
+        "aggregatedDurations": {
+          "average": 0.228028993,
+          "median": 0.228028993
+        },
+        "durations": [
+          {
+            "duration": 0.228028993,
+            "location": "Facebook.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I validate all header buttons$",
+    "steps": [
+      {
+        "name": "I validate all header buttons",
+        "aggregatedDurations": {
+          "average": 5.341481274,
+          "median": 5.341481274
+        },
+        "durations": [
+          {
+            "duration": 5.341481274,
+            "location": "Facebook.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I browse to facebook$",
+    "steps": [
+      {
+        "name": "I browse to facebook",
+        "aggregatedDurations": {
+          "average": 19.833087352,
+          "median": 21.750034911
+        },
+        "durations": [
+          {
+            "duration": 22.404572051,
+            "location": "Facebook.feature:4"
+          },
+          {
+            "duration": 15.344655094,
+            "location": "Facebook.feature:4"
+          },
+          {
+            "duration": 21.750034911,
+            "location": "Facebook.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click login$",
+    "steps": [
+      {
+        "name": "I click login",
+        "aggregatedDurations": {
+          "average": 9.366158169,
+          "median": 9.366158169
+        },
+        "durations": [
+          {
+            "duration": 11.167186603,
+            "location": "Facebook.feature:6"
+          },
+          {
+            "duration": 7.565129736,
+            "location": "Facebook.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I close the browser$",
+    "steps": [
+      {
+        "name": "I close the browser",
+        "aggregatedDurations": {
+          "average": 0.094290469,
+          "median": 0.094265631
+        },
+        "durations": [
+          {
+            "duration": 0.094647367,
+            "location": "Facebook.feature:7"
+          },
+          {
+            "duration": 0.093958411,
+            "location": "Facebook.feature:7"
+          },
+          {
+            "duration": 0.094265631,
+            "location": "Facebook.feature:17"
+          }
+        ]
+      }
+    ]
+  }
+]

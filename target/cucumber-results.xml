@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="84.384169">
+<testcase classname="Facebook Login Validation" name="Login Button Validation" time="33.966615">
+<system-out><![CDATA[Given I browse to facebook..................................................passed
+Then I write user001 and abcd1234...........................................passed
+And I click login...........................................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login Validation" name="Login Button Validation 2" time="23.231772">
+<system-out><![CDATA[Given I browse to facebook..................................................passed
+Then I write user002 and abcd1234...........................................passed
+And I click login...........................................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login Validation" name="UI Validation" time="27.185782">
+<system-out><![CDATA[Given I browse to facebook..................................................passed
+When I validate all header buttons..........................................passed
+Then I close the browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

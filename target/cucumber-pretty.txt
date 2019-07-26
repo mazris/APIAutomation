@@ -1,0 +1,26 @@
+Feature: Facebook Login Validation
+
+  Scenario Outline: Login Button Validation [90m# Facebook.feature:3[0m
+    [36mGiven [0m[36mI browse to facebook[0m
+    [36mThen [0m[36mI write <userName> and <Password>[0m
+    [36mAnd [0m[36mI click login[0m
+    [36mAnd [0m[36mI close the browser[0m
+
+    Examples: 
+
+  Scenario Outline: Login Button Validation [90m# Facebook.feature:11[0m
+    [32mGiven [0m[32mI browse to facebook[0m              [90m# HomePageStepDef.i_browse_to_facebook()[0m
+    [32mThen [0m[32mI write [0m[32m[1muser001[0m[32m and [0m[32m[1mabcd1234[0m       [90m# HomePageStepDef.i_fillup_fields(String,String)[0m
+    [32mAnd [0m[32mI click login[0m                       [90m# HomePageStepDef.i_click_login()[0m
+    [32mAnd [0m[32mI close the browser[0m                 [90m# HomePageStepDef.i_quit_the_app()[0m
+
+  Scenario Outline: Login Button Validation [90m# Facebook.feature:12[0m
+    [32mGiven [0m[32mI browse to facebook[0m              [90m# HomePageStepDef.i_browse_to_facebook()[0m
+    [32mThen [0m[32mI write [0m[32m[1muser002[0m[32m and [0m[32m[1mabcd1234[0m       [90m# HomePageStepDef.i_fillup_fields(String,String)[0m
+    [32mAnd [0m[32mI click login[0m                       [90m# HomePageStepDef.i_click_login()[0m
+    [32mAnd [0m[32mI close the browser[0m                 [90m# HomePageStepDef.i_quit_the_app()[0m
+
+  Scenario: UI Validation              [90m# Facebook.feature:14[0m
+    [32mGiven [0m[32mI browse to facebook[0m         [90m# HomePageStepDef.i_browse_to_facebook()[0m
+    [32mWhen [0m[32mI validate all header buttons[0m [90m# HomePageStepDef.I_validate_all_header_buttons()[0m
+    [32mThen [0m[32mI close the browser[0m           [90m# HomePageStepDef.i_quit_the_app()[0m

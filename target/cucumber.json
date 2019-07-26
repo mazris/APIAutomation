@@ -1,0 +1,202 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Login Button Validation",
+        "description": "",
+        "id": "facebook-login-validation;login-button-validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22404572051,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I browse to facebook",
+            "match": {
+              "location": "HomePageStepDef.i_browse_to_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300208899,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I write user001 and abcd1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user001",
+                  "offset": 8
+                },
+                {
+                  "val": "abcd1234",
+                  "offset": 20
+                }
+              ],
+              "location": "HomePageStepDef.i_fillup_fields(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11167186603,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click login",
+            "match": {
+              "location": "HomePageStepDef.i_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94647367,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I close the browser",
+            "match": {
+              "location": "HomePageStepDef.i_quit_the_app()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Login Button Validation",
+        "description": "",
+        "id": "facebook-login-validation;login-button-validation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15344655094,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I browse to facebook",
+            "match": {
+              "location": "HomePageStepDef.i_browse_to_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 228028993,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I write user002 and abcd1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user002",
+                  "offset": 8
+                },
+                {
+                  "val": "abcd1234",
+                  "offset": 20
+                }
+              ],
+              "location": "HomePageStepDef.i_fillup_fields(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7565129736,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click login",
+            "match": {
+              "location": "HomePageStepDef.i_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93958411,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I close the browser",
+            "match": {
+              "location": "HomePageStepDef.i_quit_the_app()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "UI Validation",
+        "description": "",
+        "id": "facebook-login-validation;ui-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21750034911,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I browse to facebook",
+            "match": {
+              "location": "HomePageStepDef.i_browse_to_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5341481274,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I validate all header buttons",
+            "match": {
+              "location": "HomePageStepDef.I_validate_all_header_buttons()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94265631,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I close the browser",
+            "match": {
+              "location": "HomePageStepDef.i_quit_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login Validation",
+    "description": "",
+    "id": "facebook-login-validation",
+    "keyword": "Feature",
+    "uri": "Facebook.feature"
+  }
+]
